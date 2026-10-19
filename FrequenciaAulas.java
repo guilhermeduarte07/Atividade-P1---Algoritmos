@@ -9,9 +9,9 @@ public class FrequenciaAulas {
         double faltas, aulasDadas, frequencia;
 
         System.out.print("Informe quantas aulas: ");
-        aulasDadas = scanner.nextInt();
+        aulasDadas = scanner.nextDouble();
         System.out.print("Informe quantas faltas: ");
-        faltas = scanner.nextInt();
+        faltas = scanner.nextDouble();
 
         frequencia = (aulasDadas - faltas) / aulasDadas * 100;
 

@@ -16,7 +16,7 @@ public class Maioridade {
 
         if (idade >= 18){
             System.out.print("Voce tem " + idade + " anos, voce e maior de idade");
-        } else if (anoNasc > anoAtual){
+        } else if (idade < 0){
             System.out.print("Idade inválida");
         } else {
             System.out.print("Voce tem " + idade + " anos, voce e menor de idade");
